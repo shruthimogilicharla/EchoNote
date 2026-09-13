@@ -1,0 +1,19 @@
+# Core
+numpy
+sounddevice        # microphone capture
+soundfile
+
+# Speech-to-text (Whisper, run via ONNX Runtime with QNN execution provider on Snapdragon)
+onnxruntime-qnn     # falls back to onnxruntime on non-Snapdragon dev machines
+transformers
+
+# LLM summarization
+optimum
+sentencepiece
+
+# UI
+PyQt6
+
+# Utilities
+python-dotenv
+tqdm
